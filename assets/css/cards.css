@@ -1,0 +1,90 @@
+.cardContainer {
+  border: none;
+  border-radius: 6px;
+  padding: 1.19rem;
+  box-shadow: 33px 33px 66px var(--cinza-escuro-texto);
+}
+
+.card1 {
+  background: var(--bg-roxo);
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-size: 82px 89px;
+  background-position-x: 92%;
+}
+
+.card1 .cardContainer___img__perfil,
+.card4 .cardContainer___img__perfil {
+  border: 2px solid hsl(263, 72%, 65%);
+}
+
+.card2 {
+  background: var(--bg-cinza-claro);
+}
+
+.card3 {
+  background: var(--branco);
+}
+
+.card3 .cardContainer__nome,
+.card5 .cardContainer__nome {
+  color: var(--bg-cinza-claro);
+}
+
+.card4 {
+  background: var(--bg-cinza-escuro);
+}
+
+.card5 {
+  background: var(--branco);
+}
+
+.cardContainer header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.cardContainer___img__perfil {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.cardContainer__nome {
+  color: var(--branco);
+  font-weight: 500;
+  margin: -15px;
+}
+
+.cardContainer__nome p:nth-child(2) {
+  margin-top: 1px;
+  opacity: 50%;
+  font-size: 0.688rem;
+}
+
+.cardContainer__paragrafoDestaque {
+  color: var(--branco);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.card3 .cardContainer__paragrafoDestaque,
+.card5 .cardContainer__paragrafoDestaque {
+  color: var(--bg-cinza-escuro);
+}
+
+.cardContainer > p:nth-child(3) {
+  color: var(--branco);
+  opacity: 70%;
+  font-weight: 500;
+  font-size: 0.688rem;
+  line-height: 1.3;
+}
+
+.cardContainer:nth-child(3) p:nth-child(3),
+.card5 p:nth-child(3) {
+  color: var(--bg-cinza-escuro);
+}

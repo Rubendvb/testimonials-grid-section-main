@@ -26,6 +26,11 @@ Note for text colors:
 1. "Verified Graduate" has the same color as the person's name with 50% opacity
 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
 
+Nota para cores de texto:
+
+1. "Verified Graduate" tem a mesma cor do nome da pessoa com 50% de opacidade
+2. Os parágrafos de revisão dentro das citações também têm a mesma cor, mas estão com 70% de opacidade
+
 ## Typography
 
 ### Body Copy
