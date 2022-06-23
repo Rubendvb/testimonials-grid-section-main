@@ -88,3 +88,33 @@
 .card5 p:nth-child(3) {
   color: var(--bg-cinza-escuro);
 }
+
+@media screen and (min-width: 1024px) {
+  .cardContainer {
+    padding: 2rem;
+  }
+
+  .card1 {
+    grid-area: daniel;
+  }
+
+  .card2 {
+    grid-area: jonathan;
+  }
+
+  .card3 {
+    grid-area: jeanette;
+  }
+
+  .card4 {
+    grid-area: patrick;
+  }
+
+  .card5 {
+    grid-area: aside;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}
