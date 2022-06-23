@@ -73,7 +73,7 @@
 
 .card3 .cardContainer__paragrafoDestaque,
 .card5 .cardContainer__paragrafoDestaque {
-  color: var(--bg-cinza-escuro);
+  color: var(--bg-cinza-claro);
 }
 
 .cardContainer > p:nth-child(3) {
